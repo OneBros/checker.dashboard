@@ -1,0 +1,11 @@
+export const demoRuns = [
+  { id: 'demo-ember', runner: 'Demo Ember', game: 'Dark Souls 3', tier: 'Grand Master', status: 'New', restrictions: 'SL1 / NG+7 / No Roll', extraRestrictions: '', platform: 'PC', submitted: '2026-01-06T12:00:00', checker: '', claimed: null, checked: null, notes: '', evidence: '', warnings: [] },
+  { id: 'demo-moss', runner: 'Demo Moss', game: 'Elden Ring', tier: 'Master', status: 'In Progress', restrictions: 'RL1 / All Remembrances', extraRestrictions: 'No Summons', platform: 'PS5', submitted: '2026-01-05T12:00:00', checker: 'Demo Checker', claimed: '2026-01-06T10:00:00', checked: null, notes: 'Example note: review in progress.', evidence: '', warnings: [] },
+  { id: 'demo-crane', runner: 'Demo Crane', game: 'Sekiro', tier: 'Hitless Sage', status: 'New', restrictions: 'Base Vitality / No Hit', extraRestrictions: '', platform: 'PC', submitted: '2026-01-04T12:00:00', checker: '', claimed: null, checked: null, notes: '', evidence: '', warnings: [] },
+  { id: 'demo-ash', runner: 'Demo Ash', game: 'Dark Souls 1', tier: 'Champion', status: 'Accepted', restrictions: 'SL1 / All Bosses', extraRestrictions: '', platform: 'PC', submitted: '2026-01-03T12:00:00', checker: 'Demo Checker', claimed: '2026-01-04T10:00:00', checked: '2026-01-05T10:00:00', notes: 'Example note: review complete.', evidence: '', warnings: [] },
+  { id: 'demo-lantern', runner: 'Demo Lantern', game: 'Bloodborne', tier: 'Hitless Scholar', status: 'Accepted (Not announced)', restrictions: 'BL4 / No Hit', extraRestrictions: '', platform: 'PS5', submitted: '2026-01-02T12:00:00', checker: 'Demo Reviewer', claimed: '2026-01-03T10:00:00', checked: '2026-01-04T10:00:00', notes: '', evidence: '', warnings: [] },
+  { id: 'demo-stone', runner: 'Demo Stone', game: 'Dark Souls 2', tier: 'Elite Master', status: 'Rejected', restrictions: 'SL1 / Company of Champions', extraRestrictions: 'No Buffs', platform: 'PC', submitted: '2026-01-01T12:00:00', checker: 'Demo Reviewer', claimed: '2026-01-02T10:00:00', checked: '2026-01-03T10:00:00', notes: 'Example note: the sample run does not meet the selected rules.', evidence: '', warnings: [] },
+];
+export function demoSubmissions() {
+  return { source: { kind: 'demo', filename: 'Synthetic preview data', timezone: null }, runs: demoRuns };
+}

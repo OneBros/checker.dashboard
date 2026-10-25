@@ -1,0 +1,20 @@
+:root {
+  color-scheme: dark;
+  --bg: #0c0b0a;
+  --bg-alt: #121110;
+  --surface: #181614;
+  --surface-2: #201d1a;
+  --border: #2d2925;
+  --border-strong: #3d3731;
+  --text: #e8e2d9;
+  --text-muted: #9a9187;
+  --accent: #d19a4a;
+  --accent-strong: #e8b465;
+  --accent-soft: rgba(209, 154, 74, .10);
+  --danger: #c0533f;
+  --ok: #7fae7a;
+  --hitless: #8fa9d6;
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --radius: 6px;
+}
